@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e903d154-eb8e-4470-a036-5ca3d55f739b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shaternik/OrmDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shaternik/OrmDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shaternik/model/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shaternik/model/EmployeeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -126,23 +127,63 @@
     <session id="-556985586">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="207" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="207" />
           <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shaternik/model/EmployeeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/DAO/DaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,7 +200,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
+            <state relative-caret-position="154">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="e#624#625#0" expanded="true" />
@@ -189,11 +230,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/OrmDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="316">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,6 +252,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\IdeaProjects\HomeWork\orm-demo</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -219,12 +268,12 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2282f206-a9c7-47a2-a5fa-5d2182d4ef1b/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/shaternik/model/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shaternik/OrmDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shaternik/util/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shaternik/DAO/DaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shaternik/model/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shaternik/model/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shaternik/OrmDemo.java" />
       </list>
     </option>
   </component>
@@ -292,8 +341,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,7 +423,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544779987436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544782999305" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -409,7 +458,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.step2_findEmployee">
+  <component name="RunManager" selected="Application.OrmDemo">
     <configuration name="OrmDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shaternik.OrmDemo" />
       <module name="orm-demo" />
@@ -494,11 +543,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrmDemo" />
         <item itemvalue="JUnit.EmployeeTest.step2_findEmployee" />
         <item itemvalue="JUnit.EmployeeTest.step4_deleteUser" />
         <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="JUnit.EmployeeTest.step1_createNewUser" />
-        <item itemvalue="Application.OrmDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +566,8 @@
       <workItem from="1544454819085" duration="4290000" />
       <workItem from="1544466028341" duration="2856000" />
       <workItem from="1544513911647" duration="1177000" />
-      <workItem from="1544780361212" duration="765000" />
+      <workItem from="1544780361212" duration="957000" />
+      <workItem from="1544781407752" duration="1653000" />
     </task>
     <servers />
   </component>
@@ -531,15 +581,17 @@
     <history-entry file="EmployeeTest_step4_deleteUser - 2018.12.14 at 12h 26m 27s.xml">
       <configuration name="EmployeeTest.step4_deleteUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmployeeTest_step2_findEmployee - 2018.12.14 at 12h 52m 30s.xml">
+      <configuration name="EmployeeTest.step2_findEmployee" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23094000" />
+    <option name="totallyTimeSpent" value="24939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -550,14 +602,14 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.45394006" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38111112" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.27413985" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3163152" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.4017758" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1553829" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32408434" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.19422863" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.51" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -607,15 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/DAO/DaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -628,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
+        <state relative-caret-position="154">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="e#624#625#0" expanded="true" />
@@ -657,10 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/OrmDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/DAO/DaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="242">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -669,15 +716,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shaternik/model/EmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state relative-caret-position="564">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shaternik/OrmDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="316">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,18 +10,26 @@ public class OrmDemo {
        try(
         SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
         Session session = sessionFactory.openSession();) {
-//           Employee pers = new Employee("Lola", "Mola", 32);
- //        Employee pers2 = new Employee("Gnom", "Fufirs", 57);
-//           session.save(pers);
-//           session.save(pers2);
            session.beginTransaction();
-           System.out.println("=======open transaction========");
-           Employee findEmpl = session.get(Employee.class,3L);
-           System.out.println("===============" + findEmpl.getName());
-           session.delete(findEmpl);
-           session.getTransaction().commit();
-           System.out.println("=======close transaction========");
+          Employee pers = new Employee("Pers1", "surPers11", 32);
+       Employee pers2 = new Employee("Pers2", "surPers22", 57);
+           session.save(pers);
+           if(session.isDirty()){
+               //session.flush();
+               System.out.println("SESSION DIRTY -----1");
+           }else {System.out.println("SESSION CLeAN----1");}
+           Employee findPers = (Employee) session.get(Employee.class, 1L);
+           findPers.setName("Vasiliy");
+           findPers.setSurname("Lomonosov");
+           if(session.isDirty()){
+               System.out.println("SESSION DIRTY ------2");
+            //   session.flush();
+           }else {System.out.println("SESSION CLeAN----2");}
 
+           session.save(findPers);
+           session.save(pers2);
+           session.getTransaction().commit();
+            session.close();
        }
     }
 }
