@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @NoArgsConstructor
 @Entity
-@Table(name = "car", schema = "employee_storage")
+//@Table(name = "car", schema = "employee_storage")
 public class Car {
     private static final long serialVersionUID = 3L;
 

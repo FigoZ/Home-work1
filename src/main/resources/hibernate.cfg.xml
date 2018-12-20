@@ -14,6 +14,8 @@
 
         <property name="hbm2ddl.auto">update</property>
 
+        <property name="hibernate.physical_naming_strategy"/>
+
         <mapping class="com.shaternik.model.Employee"></mapping>
         <mapping class="com.shaternik.model.Car"></mapping>
 
